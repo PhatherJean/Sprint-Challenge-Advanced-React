@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function SearchCard({ data }) {
+export default function SearchCard(props) {
+  const { data } = props;
   return (
     <div
       style={{
@@ -8,6 +9,7 @@ export default function SearchCard({ data }) {
         display: "flex",
         flexDirection: "column",
         padding: "25px",
+        width: "35%",
       }}
     >
       <h1>{data.name}</h1>
