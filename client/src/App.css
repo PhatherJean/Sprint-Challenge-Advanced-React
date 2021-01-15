@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+.dark-mode {
+  color: rgb(11, 230, 30);
+  background-color: #313843;
+  border: magenta 5px solid;
+}
